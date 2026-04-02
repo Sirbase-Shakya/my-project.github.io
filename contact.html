@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -17,7 +18,7 @@
         <nav class="navbar">
             <ul class="nav">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="home.html">Home</a>
                 </li>
                 <li>
                     <a href="menu.html">Menu</a>
@@ -109,7 +110,7 @@
                     <textarea id="message" name="message" rows="6" required></textarea>
                 </div>
 
-                <button type="submit" class="submit-btn">Send Message</button>
+                <button type="submit" class="submit-btn" id="submit">Send Message</button>
             </form>
         </div>
     </div>
@@ -118,6 +119,13 @@
             <p align="center">&copy; 2024 Our Restaurant. All rights reserved.</p>
         </footer>
     </div>
+    <script>
+        let form = document.getElementById("submit");
+
+        form.addEventListener("click", function () {
+            alert("Thank You For Your Review");
+        });
+    </script>
 </body>
 
 </html>

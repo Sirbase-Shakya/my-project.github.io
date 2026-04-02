@@ -16,7 +16,7 @@
         <nav class="navbar">
             <ul class="nav">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="home.html">Home</a>
                 </li>
                 <li>
                     <a href="menu.html">Menu</a>
@@ -47,6 +47,12 @@
             <p align="center">&copy; 2024 Our Restaurant. All rights reserved.</p>
         </footer>
     </div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const username = params.get("username");
+        if (username)
+            alert("Welcome Back! " + username);
+    </script>
 </body>
 
 </html>

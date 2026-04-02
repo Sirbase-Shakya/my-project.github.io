@@ -265,6 +265,7 @@ a {
     padding: 20px;
     border-left: 4px solid #d4a574;
     border-radius: 4px;
+
 }
 
 .item-header {
@@ -272,6 +273,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    gap: 60px;
 }
 
 .menu-item h3 {
@@ -448,4 +450,37 @@ a {
 
 a:hover {
     color: #ecc59b;
+}
+
+.limited {
+    background-color: #f9f9f92d;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.limited-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 4px solid #d4a574;
+    border-radius: 4px;
+}
+
+.limited-timer {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9d3;
+    padding: 20px;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    color: #333;
+    font-weight: bold;
 }
